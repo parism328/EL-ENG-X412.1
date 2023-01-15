@@ -1,0 +1,33 @@
+#include <iostream>
+int main() 
+{
+    using namespace std;
+    char ch = 'M'; //assign ASCII code for M to ch 
+
+    // 'M' is the numeric code for the M character, so making the char variable ch to 'M' sets ch to the value 77!
+    // then an identical value is assigned to the variable i 
+    // now both ch and i have values of 77
+    int i = ch; // store the same code as an int 
+    cout << "The ASCII code for " << ch << "is" << i << endl;
+
+    cout << "Add one to the character code:" << endl;
+    ch = ch +1; //change character code in ch 
+    i = ch; //save new character code in i /*  */
+    // i is a variable, the int variable, so now both ch and i have the value 77
+    cout << "THe ASCII code for " << ch << " is " << i << endl;
+
+    // so now both ch and i will be displayed by cout. ch will be displayed as M, and i will be 77!
+    // ch is actually an integer, so you can add 1 to it. This changes it from 77 to 78, and then i is reset as a new value! 
+    //use the cout.put() memeber function to display a char 
+
+    cout << "Displaying char ch using cout.put(ch): ";
+    cout.put('!'); // this is a member function! Member functions belong to classes and describe methods for manipulating class data!
+    // the period is a membership operator. 
+    // using class member function put() with class object cout 
+
+    //the program uses the cout.put() function to display both c and the character constant!
+
+    cout <<endl << "Done" <<endl;
+    return 0;
+
+}
