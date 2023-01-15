@@ -8,7 +8,7 @@ int main()
 {
     using namespace std;
     cout.setf(ios_base::fixed, ios_base::floatfield); //fixed -point
-    float tub = 10.0 / 3.0; //goof to about 6 places
+    float tub = 10.0 / 3.0; //good to about 6 places
     double mint = 10.0 / 3.0; // good to about 15 places
     const float million = 1.0e6;
 
