@@ -5,11 +5,11 @@
 // REQUIRED:   hello_1.cpp
 // PURPOSE:
 // The goal of this program is to demonstrate a simple C++ program that allows the user to display their 
-// name at the program output. 
-// To implement this, I will use the integer type char, cin and cout, and the << and >> operators.
+// name as part of the program output. 
+// To implement this, use the integer type char, cin and cout, and the << and >> operators.
  
 #include <iostream>         // Enables the use of input and output (<< and >>) operators.
-#include <cstring> 
+#include <cstring>          // Contains definitions for strings 
 int main ()
 {
    using namespace std;        // Eliminates need for std as in std::cout
