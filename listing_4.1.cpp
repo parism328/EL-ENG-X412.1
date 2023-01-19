@@ -3,22 +3,25 @@
 int main ()
 {
     using namespace std;
-    int yams [3]; //creates array with three elements called yams
+    int yams [3]; //this is the declaration statement--creates array of 3 short with three elements called yams
+    // the structure for making an array is: typeName arrayName[arraySize]
+    //each element is like a simple variable
     // elements are numbered from 0 through 2 
     // this uses index values of 0 through 2 to assign values to the 3 individual elements 
     // each yam element is an int with all rights / privileges of an int type 
     yams[0] = 7; //assigns value to the first element 
 
-    yams [1] = 8; // yams is the array, but yams[1] is just an int! 
-    yams [2] =6;
+    yams [1] = 8; // assigns value to the 2nd element. 
+    //yams is the array, but yams[1] is just an int! 
+    yams [2] =6; // assigns value to the 3rd element 
 
-    int yamcosts[3] = {20,30,5}; //create initialize array 
+    int yamcosts[3] = {20,30,5}; //create, initialize array 
     // note: if c++ compiler or translator can't initialize this array, use static int yamcosts[3] instead of 
     // int yamcosts[3]
     // also, this line assigns values to the yamcost array 
 
     cout << "Total yams = ";
-    cout << yams[0] + yams[1] + yams[2] << endl; 
+    cout << yams[0] + yams[1] + yams[2] << endl; //adds togehter the 3 elements of the array
     cout << "the package with " << yams[1] << "yams costs" ;
     cout << yamcosts [1] << "cents per yam.\n";
     int total = yams[0] * yamcosts[0] + yams[1] *yamcosts[1];
